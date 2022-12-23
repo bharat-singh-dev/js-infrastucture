@@ -1,0 +1,33 @@
+.notification-message {
+  color: #001a1a;
+  background-color: #fff;
+  border-radius: 15px;
+  padding:20px;
+  display: flex;
+  width:100%;
+  max-width: 400px;
+  justify-content: space-between;
+}
+.notification-message .product-name{
+  font-weight: bold;
+}
+@media screen and (max-width:640px){
+  .notification-message{
+    width:auto;
+    max-width: none;
+    left:20px !important;
+    right:20px !important;
+  }
+}
+.page-loading:before{
+  content:"\f007";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 12px;
+}
